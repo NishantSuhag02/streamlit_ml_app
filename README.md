@@ -2,7 +2,7 @@
 
 A simple machine learning web app built using **Streamlit** and **Random Forest Classifier** to predict the species of an Iris flower based on user-inputted flower dimensions.
 
-![App Screenshot](screenshot.png)
+![App Screenshot](Screenshot.png)
 
 
 ---
