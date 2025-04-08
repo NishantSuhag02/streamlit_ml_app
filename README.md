@@ -52,10 +52,10 @@ A simple machine learning web app built using **Streamlit** and **Random Forest 
 ## 📁 Project Structure
 
 ```
-├── ml_streamlit.py                # Main Streamlit application
+├── ml_streamlit.py       # Main Streamlit application
 ├── requirements.txt      # Required Python packages
 ├── README.md             # Project documentation
-└── screenshot.png        # (Optional) App screenshot
+└── screenshot.png        # App screenshot
 ```
 
 ---
@@ -82,10 +82,4 @@ Once the app is running, use the sidebar sliders to set:
 
 The model will output the **predicted species** and show your selected measurements.
 
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License.
 
