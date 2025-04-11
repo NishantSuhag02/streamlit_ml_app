@@ -28,22 +28,16 @@ A simple machine learning web app built using **Streamlit** and **Random Forest 
 
 1. **Clone the repository**  
    ```bash
-   git clone https://github.com/yourusername/iris-rf-streamlit-app.git
-   cd iris-rf-streamlit-app
+   git clone https://github.com/NishantSuhag02/streamlit_ml_app.git
+   cd streamlit_ml_app
    ```
 
-2. **Create a virtual environment (optional but recommended)**  
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install the dependencies**  
+2. **Install the dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Run the Streamlit app**  
+3. **Run the Streamlit app**  
    ```bash
    streamlit run ml_streamlit.py
    ```
