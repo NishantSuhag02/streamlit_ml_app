@@ -1,26 +1,34 @@
-# 🌿 Iris Species Prediction App
+# 🌸 Iris Flower Classification - Streamlit Web App
 
-A simple machine learning web app built using **Streamlit** and **Random Forest Classifier** to predict the species of an Iris flower based on user-inputted flower dimensions.
+This is a simple and interactive Streamlit web application that classifies Iris flowers into one of three species using different machine learning models:  
+- **Random Forest**  
+- **Support Vector Machine (SVM)**  
+- **K-Nearest Neighbors (KNN)**
 
-![App Screenshot](Screenshot.png)
+The app also provides a model comparison table displaying the accuracy of each classifier on the Iris dataset.
 
+---
+
+## 📸 Screenshot
+
+![Homepage](screenshot.png)
 
 ---
 
 ## 🚀 Features
 
-- Interactive sliders to input Sepal and Petal dimensions.
-- Predicts species of Iris flower using a trained Random Forest model.
-- Real-time predictions with an easy-to-use UI powered by Streamlit.
+- Choose between three classification models from the sidebar
+- Input flower features using intuitive sliders
+- View real-time predictions and model accuracy
+- Compare all models based on test accuracy
 
 ---
 
-## 🛠️ Tech Stack
+## 📊 Models Used
 
-- **Python**
-- **Pandas**
-- **Scikit-learn**
-- **Streamlit**
+- **Random Forest**
+- **Support Vector Machine (SVM)**
+- **K-Nearest Neighbors (KNN)**
 
 ---
 
@@ -55,17 +63,6 @@ A simple machine learning web app built using **Streamlit** and **Random Forest 
 
 ---
 
-## 📊 Model Details
-
-- **Dataset**: Iris dataset from `sklearn.datasets`
-- **Model**: RandomForestClassifier from `sklearn.ensemble`
-- **Target**: Classifies flowers into:
-  - Setosa
-  - Versicolor
-  - Virginica
-
----
-
 ## ✨ Example Use
 
 Once the app is running, use the sidebar sliders to set:
@@ -76,5 +73,3 @@ Once the app is running, use the sidebar sliders to set:
 - Petal Width (cm)
 
 The model will output the **predicted species** and show your selected measurements.
-
-
